@@ -1,2 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿int a = Convert.ToInt32(Console.ReadLine());
+int b = a * -1;
+
+while (b <= a)
+{
+    System.Console.WriteLine(b);
+    b++;
+}
